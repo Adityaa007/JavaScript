@@ -3,6 +3,13 @@
 console.log(3+3)
 
 console.log("hitesh");
+console.log(typeof "hitesh");
+console.log(typeof null); //object
+console.log(typeof undefined); //undefined
+
+
+
+
 
 /*
 number >= 2 to power 53
@@ -13,3 +20,4 @@ null >= standalone value
 undefined
 symbol
 */
+
