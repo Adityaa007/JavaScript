@@ -31,3 +31,28 @@ const myfunction=function(){
 
 console.log(typeof bigNumber);
 console.log(typeof myfunction);
+
+
+//*******************************Memory********************************
+
+//  Stack(Primitive) >= in this you'll get copy of data
+// Heap(Non-Primitive)  >= in this you'll get reference(original data)
+
+let myYoutubeName="hiteshchaudhary.com"
+
+let anotherName=myYoutubeName
+anotherName="Chai Aur Code"
+console.log(anotherName);
+console.log(myYoutubeName);
+
+let userOne={
+    email: "user1@gmail.com",
+    upi:"user@oksbi"
+}
+
+let usertwo=userOne
+console.log(usertwo);
+
+usertwo.email="hello@google.com"
+console.log(usertwo.email);
+console.log(userOne.email);
